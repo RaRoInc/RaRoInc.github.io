@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width", initial-scale="1.0">
+		<title>Learning Html all over again becasue i suck</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="images/logo.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="products.html">PRODUCTS</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>Our Courses</h1>
+		</section>
+		
+		<section class="nfts">
+			<h1>Main NFT Collections We Make.</h1>
+			<p>We make many different collections of NFTs, <br> here are some of the examples.</p>
+			<div class="row">
+				<div class="nfts-col">
+					<img src="images/1042.png">
+					<h3>Failure Faces</h3>
+					<p>This is an AI generated collection with 10,000 individual items, each of which being differnt. Buying one of these allows you to own a special NFT that no one else will ever have. Visit this collection by clicking the button below.</p>
+					<a href="https://opensea.io/collection/failurefaces" class="hero-btn red-btn">Explore This collection</a>
+				</div>
+				<div class="nfts-col">
+					<img src="images/example.gif">
+					<h3>8-bit Farm</h3>
+					<p>Each NFT in this collection is unique and hand crafted by our lead graphics designer. We are very proud of our work here at RaRoInc and encourage our customers to invest their money in our products.</p>
+					<a href="https://opensea.io/collection/8-bit-farm" class="hero-btn red-btn">Explore This collection</a>
+					
+				</div>
+				<div class="nfts-col">
+					<img src="images/pixelheads.jpg">
+					<h3>Pixel Heads</h3>
+					<p>This collection was inspired by the Youtube community, I hav no iddea what this collection is about and honestly i dont really care either, the guy that makes this collection better write about this. ROHAN OMFG</p>
+					<a href="https://opensea.io/collection/hypixelheads" class="hero-btn red-btn">Explore This collection</a>
+				</div>
+			</div>
+		</section>
+		
+<!--Testimonials-->
+		
+		<section class="testimonials">
+			<h1>What Our Customers Say</h1>
+			<p>This section is all about what our customers who have bought our nfts think.</p>
+			<div class="row">
+				<div class="testimonial-col">
+					<img src="images\user1.jpg">
+					<div>
+						<p>This nft is so good, I use it as my background and screensaver on my computer. I strongly recommend buying these NFTs as they make you feel very special. Not only that these NFTs and so cheap compared to the others so it is a very good investment.</p>
+						<h3>Mathew LastName</h3>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+				</div>
+				<div class="testimonial-col">
+					<img src="images\user2.jpg">
+					<div>
+						<p>I bought one of the failure face NFTs and I though it looked really good, it was also very cheap at only 2 dollars.<br><br><br></p>
+						<h3>Austin LastName</h3>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+<!--Call to Action-->
+		
+		<section class="cta">
+			<h1>Buy One Of Our NFTs Or Make Suggestion <br> From Anwhere Around The World.</h1>
+			<a href="contact.html" class="hero-btn">CONTACT US</a>
+		</section>
+		
+		
+		
+<!--footer-->
+		
+		
+		
+		<section class="footer">
+			<p>RaRoInc NFTs<br>Proudly making NFTs since 2022, visit our social media below.</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<p>Made with <i class="fa fa-heart-o"></i> by our technical idiot</p>
+		</section>
+		
+		
+		
+<!--Javascript for Menu :D-->
+		
+		
+		<script>
+			var navLinks = document.getElementById("navLinks")
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
